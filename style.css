@@ -1,0 +1,93 @@
+/* Reset and Base */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(images/background-iamge.avif);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+nav {
+  background-color: #223363;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Header Section */
+header {
+  background-color: #e7ba72;
+  text-align: center;
+  padding: 30px 20px;
+}
+h1 {
+  margin-bottom: 10px;
+  color: #223363;
+}
+
+section, article {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* Headings */
+h2, h3 {
+  color: orangered;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 20px auto;
+  background: #e7ba72;
+  padding: 20px;
+  border-radius: 10px;
+}
+input, textarea, select, button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+button {
+  background-color: #223363;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #44508b;
+}
+
+
+a {
+  color: #223363;
+}
+a:hover {
+  color: #c04d2d;
+}
